@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>{{ us }}'的专业 Skill</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Recoup Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<meta name="description" content="">
+<meta name="author" content="">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="../common_static/user_skill/js/jquery.min.js"></script>
+<script type="text/javascript" src="../common_static/user_skill/js/move-top.js"></script>
+       <script type="text/javascript" src="../common_static/user_skill/js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<!------ Light Box ------>
+    <script src="../common_static/user_skill/js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+    <!------ Eng Light Box ------>
+
+
+<link rel="stylesheet" href="../common_static/user_skill/css/swipebox.css">
+<link href="../common_static/user_skill/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="../common_static/user_skill/css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <span class="navbar-header page-scroll"><a class="navbar-brand page-scroll" href="#">简</a></span>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="social-buttons" href="/">主页</a> </li>
+        <li> <a class="social-buttons" href="/uhome/">返回</a> </li>
+        <li> <a class="social-buttons" href="/story/">私照</a> </li>
+          <li> <a class="social-buttons" href="/login3/">管理</a> </li>
+          <li> <a class="social-buttons" href="/logout/">退出</a> </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+<!-- header -->
+	<div class="banner">
+		<div class="container">
+			<div class="logo">
+				<h1><a href="#">  </a></h1>
+			</div>
+			<div class="banner-info">
+				<h2>你好,我是 {{ us }}</h2>
+				<h3>以下是个人技能和学习经历 </h3>
+			</div>
+		</div>
+	</div>
+<!-- header -->
+<!-- about -->
+				<div class="scroll">
+					<a href="#edu" class="scroll"><img src="../common_static/user_skill/images/down.png" class="img-responsive" alt=""></a>
+				</div>
+	<div class="about">
+		<div class="container">
+			<h3>个人技能分布</h3>
+			<div class="study2">
+			<div class="col-md-6 about-left">
+						<h4>{{ skill1}}</h4>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="{{ percent1 }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent1 }}%">
+								<span class="sr-only">{{ percent1 }}% Complete (success)</span>
+							  </div>
+							</div>
+						<h4>{{ skill2}}</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="{{ percent2 }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent2 }}%">
+							<span class="sr-only">{{ percent2 }}% Complete</span>
+						  </div>
+						</div>
+						<h4>{{ skill3}}</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="{{ percent3 }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent3 }}%">
+							<span class="sr-only">{{ percent3 }}% Complete (warning)</span>
+						  </div>
+						</div>
+						<h4>{{ skill4}}</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="{{ percent4 }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent4 }}%">
+							<span class="sr-only">{{ percent4 }}% Complete (danger)</span>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-6 about-right">
+						<h4>{{ skill5}}</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="{{ percent5 }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent5 }}%">
+							<span class="sr-only">{{ percent5 }}% Complete (danger)</span>
+						  </div>
+						</div>
+						<h4>{{ skill6}}</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="{{ percent6 }}" aria-valuemin="0" aria-valuemax="100" style="width:{{ percent6 }}%">
+							<span class="sr-only">{{ percent6 }}% Complete (danger)</span>
+						  </div>
+						</div>
+						<h4>{{ skill7}}</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="{{ percent7 }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent7 }}%">
+							<span class="sr-only">{{ percent7 }}% Complete (danger)</span>
+						  </div>
+						</div>
+						<h4>{{ skill8}}</h4>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="{{ percent8 }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent8 }}%">
+								<span class="sr-only">{{ percent8 }}% Complete (success)</span>
+							  </div>
+							</div>
+					</div>
+		</div>
+	</div>
+	</div>
+<!-- portfolio -->
+				<div class="scroll">
+					<a href="#contact" class="scroll"><img src="../common_static/user_skill/images/down.png" class="img-responsive" alt=""></a>
+				</div>
+	<div class="gallery" id="edu">
+		<div class="container">
+			<h3>学习历程（作品|成果）（链接不需要http://）</h3>
+			<div class="study2">
+			<div class="col-md-6 about-left">
+						<a  href="http://{{ study1 }}">{{ study1 }}</a><br>
+						<a  href="http://{{ study2 }}">{{ study2 }}</a><br>
+						<a  href="http://{{ study3 }}">{{ study3 }}</a><br>
+						<a  href="http://{{ study4 }}">{{ study4 }}</a><br>
+					</div>
+					<div class="col-md-6 about-right">
+						<a  href="http://{{ study5 }}">{{ study5 }}</a><br>
+						<a  href="http://{{ study6 }}">{{ study6 }}</a><br>
+						<a  href="http://{{ study7 }}">{{ study7 }}</a><br>
+						<a  href="http://{{ study8 }}">{{ study8 }}</a><br>
+					</div>
+		</div>
+	</div>
+	</div>
+<!-- portfolio -->
+<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<h3>联系我</h3>
+			<div class="footer-left">
+				<li><i class="add"> </i>lorem ipsum</li>
+				<li><i class="phone"> </i>1234567890</li>
+				<li><a href="mailto:info@example.com"><i class="mail"> </i>info@sitename.com </a></li>
+			<div class="soci">
+					<ul>
+						<li><a href="#"><i class="facebk"> </i></a></li>
+						<li><a href="#"><i class="twter"> </i></a></li>
+						<li><a href="#"><i class="goopl"> </i></a></li>
+						<li><a href="#"><i class="insta"> </i></a></li>
+							<div class="clearfix"></div>	
+					</ul>
+			</div>
+			</div>
+			<div class="co-ntact">
+	
+				  <form method="post" action="contact-post.html">
+					<div class="to">
+                     	<input type="text" class="text" value="Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name';}">
+					 	<input type="text" class="text" value="Email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email';}">
+					 	<input type="text" class="text" value="Subject" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Subject';}">
+					</div>
+					<div class="text">
+	                   <textarea value="Message" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+	                   <div class="form-submit">
+			           <input name="submit" type="submit" id="submit" value="发送"><br>
+			           </div>
+	                </div>
+	                <div class="clearfix"></div>
+                   </form>
+			</div>
+		</div>
+		<div class="map">
+			</div>
+	</div>
+	<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>
+<!-- Custom CSS -->
+<!-- Bootstrap Core CSS -->
+<link href="../common_static/home/css/bootstrap.min.css" rel="stylesheet">
+<link href="../common_static/home/css/five.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="../common_static/home/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.useso.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href='http://fonts.useso.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,400italic,700,600,600italic' rel='stylesheet' type='text/css'>
+
+
+<!-- jQuery -->
+<script src="../common_static/home/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../common_static/home/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="../common_static/home/js/jquery.easing.min.js"></script>
+<script src="../common_static/home/js/classie.js"></script>
+<script src="../common_static/home/js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="../common_static/home/js/jqBootstrapValidation.js"></script>
+<script src="../common_static/home/js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../common_static/home/js/five.js"></script>
+<!-- contact -->
+</body>
+</html>

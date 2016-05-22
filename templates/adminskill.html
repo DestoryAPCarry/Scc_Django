@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../common_static/userAdmin/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../common_static/userAdmin/css/templatemo-style.css">
+    <title>{{ us }}</title>
+</head>
+
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">版面管理</a>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a class="external" href="/" >主页</a></li>
+                    <li><a class="external" href="/skill/" >返回</a></li>
+                    <li><a href="#services">图表管理</a></li>
+                    <li><a href="#clients">学习历程管理</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="col-md-12 content" id="home">
+           <div class="col-lg-6 col-md-6 content-item">
+               <img src="../common_static/userAdmin/images/1.jpg" alt="Image" class="tm-image">
+           </div>
+           <div class="col-lg-6 col-md-6 content-item content-item-1 background">
+               <h2 class="main-title text-center dark-blue-text">Puzzle Bootstrap Template</h2>
+               <p>Puzzle is a Bootstrap (v3.3.6) responsive template provided by <span class="light-blue-text">templatemo</span>. You can download, edit and use this layout for absolutely free of charge.</p>
+               <p>No backlink is required to use this template. Credit goes to <span class="light-blue-text">Unsplash</span> for images used in this layout.</p>
+               <button type="button" class="btn btn-big dark-blue-bordered-btn">Big Button</button>
+               <button type="button" class="btn btn-big dark-blue-btn">Download</button>
+           </div>
+       </section>
+
+       <section class="col-md-12 content padding" id="services">
+        <div class="col-lg-6 col-md-6 col-md-push-6 content-item">
+           <img src="../common_static/userAdmin/images/2.jpg" alt="Image" class="tm-image">
+       </div>
+       <div class="col-lg-6 col-md-6 col-md-pull-6 content-item background flexbox">
+           <h2 class="section-title">图标管理</h2>
+           <p class="margin-b-25">请输入学识栏填入知识，百分比栏输入该技能在所学中比例 (按顺序 不需要%).</p>
+
+           <!--<div class="row"> -->
+           <form method="post" name="contact-form" class="contact-form">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="skill 1" type="text" class="form-control" id="skill 1"  placeholder="输入知识名" onfocus="this.value=''" required >
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="percent 1" type="text" class="form-control" id="percent 1"  value="输入百分百" onfocus="this.value=''" onblur="if (this.value == '') {this.value = '0';} if (this.value>100){this.value = '100'}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="skill 2" type="text" class="form-control" id="skill 2"  value="输入知识名" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="percent 2" type="text" class="form-control" id="percent 2"  value="输入百分百" onfocus="this.value=''" onblur="if (this.value == '') {this.value = '0';} if (this.value>100){this.value = '100'}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="skill 3" type="text" class="form-control" id="skill 3"  value="输入知识名" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="percent 3" type="text" class="form-control" id="percent 3"  value="输入百分百" onfocus="this.value=''" onblur="if (this.value == '') {this.value = '0';} if (this.value>100){this.value = '100'}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="skill 4" type="text" class="form-control" id="skill 4"  value="输入知识名" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="percent 4" type="text" class="form-control" id="percent 4"  value="输入百分百" onfocus="this.value=''" onblur="if (this.value == '') {this.value = '0';} if (this.value>100){this.value = '100'}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="skill 5" type="text" class="form-control" id="skill 5"  value="输入知识名" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="percent 5" type="text" class="form-control" id="percent 5"  value="输入百分百" onfocus="this.value=''" onblur="if (this.value == '') {this.value = '0';} if (this.value>100){this.value = '100'}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="skill 6" type="text" class="form-control" id="skill 6"  value="输入知识名" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="percent 6" type="text" class="form-control" id="percent 6"  value="输入百分百" onfocus="this.value=''" onblur="if (this.value == '') {this.value = '0';} if (this.value>100){this.value = '100'}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="skill 7" type="text" class="form-control" id="skill 7"  value="输入知识名" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="percent 7" type="text" class="form-control" id="percent 7"  value="输入百分百" onfocus="this.value=''" onblur="if (this.value == '') {this.value = '0';} if (this.value>100){this.value = '100'}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="skill 8" type="text" class="form-control" id="skill 8"  value="输入知识名" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="percent 8" type="text" class="form-control" id="percent 8"  value="输入百分百" onfocus="this.value=''" onblur="if (this.value == '') {this.value = '0';} if (this.value>100){this.value = '100'}">
+                </div>
+            </div>
+               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="form-group margin-b-0">
+                    <button type="submit" id="form-submit" class="btn no-bg btn-contact">Submit</button>
+                </div>
+            </div>
+        </form>
+
+        <!--</div> -->
+        <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+       </div>
+
+   </section>
+
+
+
+   <section class="col-md-12 content" id="clients">
+       <div class="col-lg-6 col-md-6 content-item">
+           <img src="../common_static/userAdmin/images/3.jpg" alt="Image" class="tm-image">
+       </div>
+       <div class="col-lg-6 col-md-6 content-item background flexbox">
+           <h2 class="section-title">学习历程管理</h2>
+           <p class="margin-b-25">此模块输入学习过程中的成果（产品 论文等下载地址或网页链接）</p>
+
+           <!--<div class="row"> -->
+           <form method="post" name="contact-form" class="contact-form">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="study 1" type="text" class="form-control" id="percent 1" placeholder="输入链接" onfocus="this.value=''" required >
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="study 2" type="text" class="form-control" id="percent 2"  value="输入链接" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="study 3" type="text" class="form-control" id="percent 3"  value="输入链接" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="study 4" type="text" class="form-control" id="percent 4"  value="输入链接" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="study 5" type="text" class="form-control" id="percent 5"  value="输入链接" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="study 6" type="text" class="form-control" id="percent 6"  value="输入链接" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="study 7" type="text" class="form-control" id="percent 7"  value="输入链接" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="study 8" type="text" class="form-control" id="percent 8"  value="输入链接" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'None';}">
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="form-group margin-b-0">
+                    <button type="submit" id="form-submit" class="btn no-bg btn-contact">Submit</button>
+                </div>
+            </div>
+        </form>
+        <!--</div> -->
+        <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+       </div>
+   </section>
+
+<footer class="col-md-12 content" id="externals">
+ <div class="col-lg-6 col-md-6 last">
+   <img src="../common_static/userAdmin/images/5.png" alt="Image" class="tm-image">
+</div>
+<div class="col-lg-6 col-md-6 background last about-text-container">
+   <h2 class="section-title">About This Website</h2>
+   <p class="about-text">Puzzle Template is brought to you by templatemo. Sed imperdiet quis ipsum a vulputate. Suspendisse sit amet nibh mi. In quis sapien a metus interdum hendrerit.</p>
+</div>
+</footer>
+
+</div>
+
+<div class="text-center footer">
+	<div class="container">
+    </div>
+</div>
+
+<script src="../common_static/userAdmin/js/jquery.min.js"></script>
+<script src="../common_static/userAdmin/js/bootstrap.min.js"></script>
+<script src="../common_static/userAdmin/js/jquery.singlePageNav.min.js"></script>
+
+<script>
+
+// Check scroll position and add/remove background to navbar
+function checkScrollPosition() {
+    if($(window).scrollTop() > 50) {
+      $(".fixed-header").addClass("scroll");
+  } else {
+      $(".fixed-header").removeClass("scroll");
+  }
+}
+
+$(document).ready(function () {
+    // Single page nav
+    $('.fixed-header').singlePageNav({
+        offset: 59,
+        filter: ':not(.external)',
+        updateHash: true
+    });
+
+    checkScrollPosition();
+
+    // nav bar
+    $('.navbar-toggle').click(function(){
+        $('.main-menu').toggleClass('show');
+    });
+
+    $('.main-menu a').click(function(){
+        $('.main-menu').removeClass('show');
+    });
+});
+
+$(window).on("scroll", function() {
+    checkScrollPosition();
+});
+</script>
+</body>
+</html>
